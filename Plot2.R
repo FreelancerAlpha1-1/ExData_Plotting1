@@ -1,4 +1,6 @@
-## IMPORTANT! From plot2 to plot4, I will be utilizing the R package "data.table". As such, in order for you to reproduce these plots, it will be necessary for you to download the package, if you have not already done so, by typing in library(data.table)
+## IMPORTANT! From plot2 to plot4, I will be utilizing the R package "data.table". As such, in order for you to reproduce 
+these plots, it will be necessary for you to download the package, if you have not already done so, by typing in 
+library(data.table)
 
 ## After downloading and unzipping the file we will now set up our working directory 
 
