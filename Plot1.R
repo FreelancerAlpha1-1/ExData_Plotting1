@@ -13,7 +13,7 @@ end.time <- as.Date("02/02/2007", format = "%d/%m/%Y")
 
 png(filename="plot1.png")
 
-## Making Plot 1 
+## Make Plot 1 
 hist(data$Global_active_power[data$Date == start.time | data$Date == end.time],
      breaks = 12,
      col = "red",
