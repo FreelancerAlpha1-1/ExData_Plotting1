@@ -11,7 +11,7 @@ data$Date <- as.Date(data$Date, format = "%d/%m/%Y")
 start.time <- as.Date("01/02/2007", format = "%d/%m/%Y")
 end.time <- as.Date("02/02/2007", format = "%d/%m/%Y")
 
-png("Plot1.png",height=480,width=480)
+png("plot1.png",height=480,width=480)
 
 ## Make Plot 1 
 hist(data$Global_active_power[data$Date == start.time | data$Date == end.time],
